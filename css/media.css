@@ -1,0 +1,110 @@
+@media (max-width: 768px){
+
+  .contanier{
+    width: 95%;
+  }
+
+   #home .title{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .div-title{
+    width: 100%;
+  }
+
+  #home .h-title h1{
+    font-size: 42px;
+  }
+
+  .hero-img{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .smal-div{
+    left: 10px;
+    bottom: 10px;
+    padding: 12px 18px;
+  }
+
+   .center-1{
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .flex-1{
+    width: 100%;
+  }
+
+  .center-1 .flex-1 img{
+    height: auto;
+  }
+
+  .t-img{
+    top: 15px;
+  }
+
+  .flex-1 h3{
+    bottom: 20px;
+  }
+
+   .bu-1{
+    left: 10%;
+    top: 102%;
+  }
+
+  .bu-2{
+    right: 10%;
+    top: 102%;
+  }
+
+  .bu-3{
+    top: 118%;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+   #we-do .inner{
+    flex-direction: column;
+  }
+
+  #we-do .box,
+  #we-do .box1{
+    width: 100%;
+  }
+
+   .team-grid{
+    grid-template-columns: 1fr;
+  }
+
+   #contact .contanier{
+    flex-direction: column;
+  }
+
+  .right-con,
+  .input{
+    width: 100%;
+  }
+
+  .row div:first-child{
+    flex-direction: column !important;
+  }
+
+  .col{
+    width: 100%;
+  }
+
+   .tail{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .last-div{
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
