@@ -1,8 +1,8 @@
  @media (max-width: 767px) {
-     .hero-img { width: 70% ; height: auto; }
+    .hero-img { width: 70% ; height: auto; }
     .smal-div { position: relative;  left: -1% !important; bottom: -10% !important; font-size: 14px ; }
 
-     .carousel-controls { 
+    .carousel-controls { 
         display: flex; 
         justify-content: center; 
         align-items: center;
@@ -11,6 +11,7 @@
     }
     .bu-1 { left: 35% !important; } 
     .bu-2 { right: 35% !important; } 
+    
     .bu-3 {bottom: -50% !important;left: 1%; margin: auto ;}
     .flex-container { 
         display: flex; 
@@ -23,9 +24,7 @@
         grid-template-columns: 1fr !important; 
         text-align: center; 
     }
- }
-
-
+}
 @media (max-width: 767px) {
     .title, 
     .div-title div:last-child, 
