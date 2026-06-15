@@ -4,6 +4,9 @@
     border: none;
     box-sizing: border-box;
  }
+ #navbarTogglerDemo02 .nav-link.active {
+  color: #cbfe1c !important;
+ }
 .navbar-nav .nav-link {
     color: white !important;
     opacity: 0.8;  
