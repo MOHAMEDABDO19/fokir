@@ -43,9 +43,6 @@
   grid-template-columns: 1fr !important;
   text-align: center;
 }
-.team-member {
-}
-
 @media (max-width: 767px) {
   .title,
   .div-title div:last-child,
