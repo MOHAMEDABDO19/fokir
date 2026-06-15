@@ -7,6 +7,14 @@
  #navbarTogglerDemo02 .nav-link.active {
   color: #cbfe1c !important;
  }
+ .navbar-toggler{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-toggler-icon{
+    filter: brightness(0) invert(1);
+}
 .navbar-nav .nav-link {
     color: white !important;
     opacity: 0.8;  
